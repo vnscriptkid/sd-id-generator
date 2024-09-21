@@ -6,3 +6,6 @@ down:
 
 cli:
 	docker compose exec mysql mysql -u root --password=root_password -D my_database
+
+mongo:
+	docker compose exec mongo mongosh --host localhost:27017
