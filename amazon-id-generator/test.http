@@ -1,0 +1,6 @@
+### Get next ID range
+GET http://localhost:8080/next-id-range/order
+
+### Get next ID range
+GET http://localhost:8080/next-id-range/payment
+
