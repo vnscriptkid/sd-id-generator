@@ -24,4 +24,12 @@ ISODate('2024-09-21T12:33:54.000Z')
 # get timestamp in epoch milliseconds
 test> id.getTimestamp().getTime()
 1726922034000
+
+# object id is comparable
+test> past = ObjectId()
+ObjectId('66efdb489c18bdc04d1681ed')
+test> now = ObjectId()
+ObjectId('66efdb509c18bdc04d1681ee')
+test> now > past
+true
 ```
